@@ -26,8 +26,8 @@ TARGET_SCREEN_HEIGHT := 2092
 TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="felix-user 15 AP4A.250105.002 12701944 release-keys" \
-    BuildFingerprint=google/felix/felix:15/AP4A.250105.002/12701944:user/release-keys \
+    BuildDesc="felix-user 15 AP4A.250205.002 12821496 release-keys" \
+    BuildFingerprint=google/felix/felix:15/AP4A.250205.002/12821496:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
